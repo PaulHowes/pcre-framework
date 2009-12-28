@@ -42,7 +42,7 @@
 		DA886E2210E90B46003AFB7F /* pcrecpp_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DA886E1C10E90B46003AFB7F /* pcrecpp_internal.h */; };
 		DA886E2310E90B46003AFB7F /* pcrecpp.cc in Sources */ = {isa = PBXBuildFile; fileRef = DA886E1D10E90B46003AFB7F /* pcrecpp.cc */; };
 		DA886E2410E90B46003AFB7F /* pcrecpp.h in Headers */ = {isa = PBXBuildFile; fileRef = DA886E1E10E90B46003AFB7F /* pcrecpp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA886E3710E90CE6003AFB7F /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = DA886E3510E90CE6003AFB7F /* AGRegex.h */; };
+		DA886E3710E90CE6003AFB7F /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = DA886E3510E90CE6003AFB7F /* AGRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA886E3810E90CE6003AFB7F /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = DA886E3610E90CE6003AFB7F /* AGRegex.m */; };
 		DA886E3D10E90D79003AFB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA886E3C10E90D79003AFB7F /* Foundation.framework */; };
 /* End PBXBuildFile section */
