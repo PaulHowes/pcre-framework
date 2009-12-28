@@ -19,8 +19,22 @@ This framework consists of several components:
 
 2.  AGRegex source code from http://github.com/mdiep/AGRegex/
 
+    This is used as a submodule and can be updated as such.  AGRegex internally
+    depends on a very old version (6.7) of PCRE.  There are only two files of
+    interest in this project, but it's easier to grab everything.
+
 # DOWNLOADING
+
+Clone the repository with
+`git clone git://github.com/pahowes/pcre-framework.git`
 
 # COMPILING
 
-# USAGE
+Open `pcre.xcodeproj` with XCode 3.2 or later, or use `xcodebuild` to build it
+from the command line.
+
+Under the `build` directory you will find either a debug or a release version
+of the framework, depending on the type of compile.  The base library path
+embedded into the binary is `@loader_path/../Frameworks` which should be
+sufficient to include the framework with your own application or plug-in
+bundle.
