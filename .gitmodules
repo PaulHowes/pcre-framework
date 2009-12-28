@@ -1,0 +1,3 @@
+[submodule "vendor/AGRegex"]
+	path = vendor/AGRegex
+	url = git://github.com/mdiep/AGRegex.git
